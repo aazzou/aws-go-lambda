@@ -10,3 +10,6 @@ AWS Lambda using Golang
 `zip -jrm build/main.zip build/main`
 
 Upload main.zip to your lambda project on AWS, change your main handler from 'hello' to 'main'
+
+#### Using dynamodb
+You can use [this branch code](https://github.com/aazzou/aws-go-lambda/tree/aws/dynamodb) for using dynamodb
